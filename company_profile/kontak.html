@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak Kami - Sawit Go</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar bg-secondary">
+        <div class="container navbar__inner">
+          <a href="" class="navbar__logo">
+            <img src="assets/image/gambar sawit.jpeg" alt="" />
+          </a>
+          <ul class="navbar__menu">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang Kami</a></li>
+            <li><a href="layanan.html">Layanan</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- section hero kontak -->
+      <section class="bg-primary" style="padding: 4rem 0">
+        <div class="container" style="text-align: center">
+          <span
+            class="text-accent"
+            style="
+              text-transform: uppercase;
+              letter-spacing: 0.5rem;
+              font-weight: 700;
+              font-size: 0.8rem;
+            "
+            >Kontak Kami</span
+          >
+          <h1 style="color: white; margin-top: 0.5rem">
+            Mari Berdiskusi dengan Tim Kami
+          </h1>
+        </div>
+      </section>
+
+      <!-- section informasi dan form kontak -->
+      <section>
+        <div class="container grid-about" style="align-items: start">
+          <!-- Kolom Informasi Kontak -->
+          <div class="grid-about__text">
+            <div
+              class="section-title"
+              style="text-align: left; margin: 0 0 1.5rem 0"
+            >
+              <span>Informasi Kontak</span>
+              <h2>Kunjungi atau Hubungi Kantor Kami</h2>
+            </div>
+            <p>
+              Tim profesional SawitGo siap membantu Anda menemukan lahan sawit
+              berkualitas, mengurus legalitas, dan memberikan konsultasi
+              investasi terbaik.
+            </p>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem">
+              <div>
+                <h3 style="margin-bottom: 0.5rem">Alamat Kantor</h3>
+                <p style="color: black"> Jl. Perkebunan Raya No.12</p>
+              </div>
+
+              <div>
+                <h3 style="margin-bottom: 0.5rem">Telepon / Whatsaap</h3>
+                <p style="color: black">08363534325</p>
+              </div>
+              <div>
+                <h3 style="margin-bottom: 0.5rem">Email</h3>
+                <p style="color: black">info@sawitgo.com</p>
+              </div>
+              <div>
+                <h3 style="margin-bottom: 0.5rem">Jam Operasional</h3>
+                <p style="color: black">Senin - Jumat: 08.00 - 17.00 WIB </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom Formulir Kontak -->
+           <div class="card" style="margin-bottom: 0;">
+              <h3 style="margin-bottom: 1.5rem; text-align: center;">Kirimkan Pesan Anda</h3>
+              <form action=""method="POST" style="display: flex; flex-direction: column;gap: 1.25rem;">
+                <div>
+                  <label for="nama" style="display: block; margin-bottom: 0.5rem; font-weight: 500;font-size: 0.9rem;">Nama Lengkap</label>
+                  <input type="text" id="nama" placeholder="Masukkan Nama"required style="width: 100%; padding: 0.85rem; border: 1px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem;">
+                </div>
+                <div>
+                  <label for="email" for="nama" style="display: block; margin-bottom: 0.5rem; font-weight: 500;font-size: 0.9rem;">Alamat Email</label>
+                  <input type="text"  id="email" placeholder="Masukkan Email"required style="width: 100%; padding: 0.85rem; border: 1px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem;">
+                </div>
+                <div>
+                  <label for="" style="display: block; margin-bottom: 0.5rem; font-weight: 500;font-size: 0.9rem;">Topik Layanan</label>
+                  <select name="" id="" style="width: 100%; padding: 0.85rem; border: 1px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem;">
+                    <option value="">Direktori Lahan Sawit</option>
+                    <option value="">Survei &amp; Analisis Kebun</option>
+                    <option value="">Konsultasi Investasi</option>
+                    <option value="">Legalitas &amp; Perizinan</option>
+                  </select>
+                </div>
+                <div>
+                    <label for="" style="display: block; margin-bottom: 0.5rem; font-weight: 500;font-size: 0.9rem;">Pesan</label>
+                    <textarea name="Pesan" id="Pesan" rows="5" placeholder="Tuliskan pertanyaan atau kebutuhan disini" required style="width: 100%; padding: 0.85rem; border: 1px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem; resize: vertical;"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary" style="width: 100%; margin-top: 0.5rem;text-align: center; border-radius: 8px;">Kirim Pesan Sekarang</button>
+              </form>
+           </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <img
+            src="assets/image/image.png"
+            alt="Logo Sawit"
+            style="height: 2.5rem; margin-bottom: 1rem"
+          />
+          <p style="color: #9aa89f">
+            Membantu perusahaan dan investor menemukan, mensurvei, dan mengelola
+            perkebunan sawit terpercaya di seluruh Indonesia
+          </p>
+          <div class="social-links" style="margin-top: 1rem">
+            <a href="" target="_blank" rel="noopener" aria-label="Facebook"
+              >FB</a
+            >
+            <a href="" target="_blank" rel="noopener" aria-label="Instagram"
+              >IG</a
+            >
+            <a href="" target="_blank" rel="noopener" aria-label="Linkedln"
+              >IN</a
+            >
+          </div>
+        </div>
+        <div>
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang kami</a></li>
+            <li><a href="layanan.html">Layanan</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Layanan</h4>
+          <ul>
+            <li><a href="">Direktori Lahan Sawit</a></li>
+            <li><a href="">Survei &amp; Analisa Kebun</a></li>
+            <li><a href="">Konsultasi Investasi</a></li>
+            <li><a href="">Legalitas &amp; Perizinan</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kontak Kami</h4>
+          <address>
+            Jl. Perkebunan Raya No.12<br />
+            Pekanbaru, Riau <br />
+            028273535363 <br />
+            <a href="#">Telepon</a>
+          </address>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 SawitGo. Made in Naufal</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
